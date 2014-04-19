@@ -10,9 +10,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include "ProyectoPrueba.h"
 
 int main(void) {
-	puts("!!!Hola mundo!!!");
-	puts("Esta es una prueba para el TP de Operativos");
-	return EXIT_SUCCESS;
+	saludar("Gastitan");
+	return 0;
+}
+
+void saludar(char* nombre)
+{
+	printf("Hola %s", nombre);
 }
