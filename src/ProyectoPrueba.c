@@ -15,10 +15,16 @@
 
 int main(void) {
 	saludar("Gastitan");
+	negarElSaludo("Grillo");
 	return 0;
 }
 
 void saludar(char* nombre)
 {
 	printf("Hola %s", nombre);
+}
+
+void negarElSaludo(char* nombre)
+{
+	printf("%s vos debes guita y no te saludo",nombre);
 }

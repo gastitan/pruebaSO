@@ -9,5 +9,6 @@
 #define PROYECTOPRUEBA_H_
 
 void saludar(char* nombre);
+void negarElSaludo(char* nombre);
 
 #endif /* PROYECTOPRUEBA_H_ */
