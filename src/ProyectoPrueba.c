@@ -13,11 +13,11 @@
 #include <string.h>
 #include "ProyectoPrueba.h"
 
-int main(void) {
+/*int main(void) {
 	saludar("Gastitan");
 	negarElSaludo("Grillo");
 	return 0;
-}
+}*/
 
 void saludar(char* nombre)
 {
