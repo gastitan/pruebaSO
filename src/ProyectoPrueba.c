@@ -16,6 +16,7 @@
 int main(void) {
 	saludar("Gastitan");
 	negarElSaludo("Grillo");
+	aceptarElSaludo("grillo");
 	return 0;
 }
 
@@ -27,4 +28,9 @@ void saludar(char* nombre)
 void negarElSaludo(char* nombre)
 {
 	printf("%s vos debes guita y no te saludo",nombre);
+}
+
+void aceptarElSaludo(char* nombre)
+{
+	printf("Todos debemos plata %s", nombre);
 }
