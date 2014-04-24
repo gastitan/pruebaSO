@@ -11,26 +11,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "ProyectoPrueba.h"
+#include "saludos.h"
+#include "punteros.h"
+#include "hilos.h"
 
-/*int main(void) {
-	saludar("Gastitan");
-	negarElSaludo("Grillo");
-	aceptarElSaludo("grillo");
+int main(void) {
+	//saludar("Gastitan");
+	//negarElSaludo("Grillo");
+	//aceptarElSaludo("grillo");
+
+	//crear_puntero1();
+	//crear_puntero2();
+
+	disparar_un_hilo();
+
 	return 0;
-}*/
-
-void saludar(char* nombre)
-{
-	printf("Hola %s", nombre);
-}
-
-void negarElSaludo(char* nombre)
-{
-	printf("%s vos debes guita y no te saludo",nombre);
-}
-
-void aceptarElSaludo(char* nombre)
-{
-	printf("Todos debemos plata %s", nombre);
 }

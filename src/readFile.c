@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-int main()
+int leerArchivo()
 {
 	int c;
 	FILE *file;

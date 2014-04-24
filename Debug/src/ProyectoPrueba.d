@@ -1,3 +1,3 @@
-src/ProyectoPrueba.d: ../src/ProyectoPrueba.c ../src/ProyectoPrueba.h
+src/ProyectoPrueba.d: ../src/ProyectoPrueba.c ../src/saludos.h
 
-../src/ProyectoPrueba.h:
+../src/saludos.h:
