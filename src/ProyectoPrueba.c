@@ -14,6 +14,9 @@
 #include "saludos.h"
 #include "punteros.h"
 #include "hilos.h"
+#include <pthread.h>
+#include "malloc.h"
+#include "prueba_algoritmos.h"
 
 int main(void) {
 	//saludar("Gastitan");
@@ -23,7 +26,11 @@ int main(void) {
 	//crear_puntero1();
 	//crear_puntero2();
 
-	disparar_un_hilo();
+//	disparar_un_hilo();
+
+	prueba_malloc();
+
+//	procesar_algoritmo();
 
 	return 0;
 }

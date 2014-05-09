@@ -4,35 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/ProyectoPrueba.c \
-../src/hilos.c \
-../src/malloc.c \
-../src/prueba_algoritmos.c \
-../src/punteros.c \
-../src/readFile.c \
-../src/saludos.c 
+../src/commons/log.c 
 
 OBJS += \
-./src/ProyectoPrueba.o \
-./src/hilos.o \
-./src/malloc.o \
-./src/prueba_algoritmos.o \
-./src/punteros.o \
-./src/readFile.o \
-./src/saludos.o 
+./src/commons/log.o 
 
 C_DEPS += \
-./src/ProyectoPrueba.d \
-./src/hilos.d \
-./src/malloc.d \
-./src/prueba_algoritmos.d \
-./src/punteros.d \
-./src/readFile.d \
-./src/saludos.d 
+./src/commons/log.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-src/%.o: ../src/%.c
+src/commons/%.o: ../src/commons/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
 	gcc -O0 -g3 -Wall -lpthread -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
