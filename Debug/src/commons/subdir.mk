@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/commons/list.c \
 ../src/commons/log.c 
 
 OBJS += \
+./src/commons/list.o \
 ./src/commons/log.o 
 
 C_DEPS += \
+./src/commons/list.d \
 ./src/commons/log.d 
 
 

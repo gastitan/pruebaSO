@@ -6,6 +6,7 @@
 C_SRCS += \
 ../src/ProyectoPrueba.c \
 ../src/hilos.c \
+../src/listas.c \
 ../src/malloc.c \
 ../src/prueba_algoritmos.c \
 ../src/punteros.c \
@@ -15,6 +16,7 @@ C_SRCS += \
 OBJS += \
 ./src/ProyectoPrueba.o \
 ./src/hilos.o \
+./src/listas.o \
 ./src/malloc.o \
 ./src/prueba_algoritmos.o \
 ./src/punteros.o \
@@ -24,6 +26,7 @@ OBJS += \
 C_DEPS += \
 ./src/ProyectoPrueba.d \
 ./src/hilos.d \
+./src/listas.d \
 ./src/malloc.d \
 ./src/prueba_algoritmos.d \
 ./src/punteros.d \

@@ -17,6 +17,7 @@
 #include <pthread.h>
 #include "malloc.h"
 #include "prueba_algoritmos.h"
+#include "listas.h"
 
 int main(void) {
 	//saludar("Gastitan");
@@ -24,13 +25,15 @@ int main(void) {
 	//aceptarElSaludo("grillo");
 
 	//crear_puntero1();
-	//crear_puntero2();
+	crear_puntero2();
 
 //	disparar_un_hilo();
 
-	prueba_malloc();
+//	prueba_malloc();
 
 //	procesar_algoritmo();
+
+//	test_list_iterate();
 
 	return 0;
 }
